@@ -1,124 +1,125 @@
 body {
-  font-family: "Times New Roman", Georgia, serif;
-  background-color: #1e1e1e; /* Warna hitam */
-}
-
-header {
-  background-color: #adadbc;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Mengubah tampilan menu menjadi kotak-kotak */
-nav ul li {
-  display: inline-block; /* Mengubah menjadi inline-block */
-  padding: 10px; /* Memberi padding pada setiap menu */
-  border: 1px solid #ccc; /* Memberi border pada setiap menu */
-  border-radius: 5px; /* Melengkungkan sudut menu */
-}
-
-/* Mengubah warna menu saat hover */
-nav ul li:hover {
-  background-color: #2d2c2c; /* Warna abu-abu */
-}
-
-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-nav a:hover {
-  font-weight: bold;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-  display: none;
-}
-
-section.active {
-  display: block;
-}
-
-h1,
-h2 {
-  margin: 0;
-  padding: 10px 0;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-article {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-article h3 {
-  margin-top: 0;
-}
-
-footer {
-  background-color: #adadbc;
-  text-align: center;
-  padding: 10px;
-}
-
-/* Tambahkan CSS berikut pada file style.css */
-.contact-info {
-  display: flex;
-  align-items: center;
-}
-
-.contact-info img {
-  width: 100px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-  height: 90px;
-  margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks */
-  border-radius: 50%;
-}
-
-.contact-info ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.contact-info li {
-  margin-bottom: 10px; /* Sesuaikan jarak antara baris */
-}
-
-/* Penambahan warna putih untuk elemen teks */
-h1,
-h2,
-h3,
-p,
-a,
-li {
-  color: #fff; /* Warna putih */
-}
-
-h2 {
-  line-height: 1.5;
-}
+    font-family: "Times New Roman", Georgia, serif;
+    background-color: #1e1e1e; /* Warna hitam */
+  }
+  
+  header {
+    background-color: #adadbc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Mengubah tampilan menu menjadi kotak-kotak */
+  nav ul li {
+    display: inline-block; /* Mengubah menjadi inline-block */
+    padding: 10px; /* Memberi padding pada setiap menu */
+    border: 1px solid #ccc; /* Memberi border pada setiap menu */
+    border-radius: 5px; /* Melengkungkan sudut menu */
+  }
+  
+  /* Mengubah warna menu saat hover */
+  nav ul li:hover {
+    background-color: #2d2c2c; /* Warna abu-abu */
+  }
+  
+  nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    display: none;
+  }
+  
+  section.active {
+    display: block;
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  article h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #adadbc;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Tambahkan CSS berikut pada file style.css */
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info img {
+    width: 100px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 90px;
+    margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks */
+    border-radius: 50%;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px; /* Sesuaikan jarak antara baris */
+  }
+  
+  /* Penambahan warna putih untuk elemen teks */
+  h1,
+  h2,
+  h3,
+  p,
+  a,
+  li {
+    color: #fff; /* Warna putih */
+  }
+  
+  h2 {
+    line-height: 1.5;
+  }
+  
